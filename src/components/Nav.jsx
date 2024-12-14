@@ -3,10 +3,11 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import React from 'react';
 
+
 function Nav() {
     return (
-        <nav className="navbar navbar-expand-md bg-transparent fixed-top">
-            <div className="container">
+        <nav id="positionnav" className="navbar navbar-expand-md bg-transparent ">
+            <div  className="container ">
                 {/* <a className="navbar-brand" href="#">Offcanvas navbar</a> */}
                 <img src="images/brand_logo.png" className="navbar-brand" />
                 <button className="navbar-toggler border-0  shadow-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -39,11 +40,11 @@ function Nav() {
                             <a href="#" className='text-black px-2  text-decoration-none'>Login</a>
                             <button className="bg-red-400 rounded-lg px-3  py-1 text-decoration-none" >Sign In</button>
                         </div>
-                        
                     </div>
                 </div>
             </div>
         </nav>
+        
 
 
     );
